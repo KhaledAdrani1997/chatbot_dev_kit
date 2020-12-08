@@ -16,5 +16,5 @@ data = yaml.load(string)
 with open('data/raw/ai.json', 'w') as outfile:
     json.dump(data, outfile)
 
-print(json)
+
 
